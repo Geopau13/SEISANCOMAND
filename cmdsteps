@@ -139,9 +139,40 @@ paulina
 #    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
 #    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
 
-#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
-#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?Distante
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?#Local
 
 #    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
-#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ? po #para escoger y q para salir, para darle zoom marco la caja y escojo el tiempo inicial y el tiempo final
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ? dels #para borarr las lineas
+ Give line to delete or keep, terminate with enter
+ 1: Lines with P-phase             Not delete
+ 2: Lines with S-phase             Not delete
+ 3: Lines with SPEC-phase          Not delete
+ 4: Lines with IAML-phase          Not delete
+ 5: Lines with IASP-AMP phase      Not delete
+ 6: Lines with AM, AT and AS phase Not delete
+ 7: Lines with END phase           Not delete
+ 8: Lines with BAZ phase           Not delete
+ 9: Lines with any phase           Not delete
+10: Lines with fp solutions        Not delete
+11: Phases with given stations     Not delete
+9
+ Give line to delete or keep, terminate with enter
+ 1: Lines with P-phase             Not delete
+ 2: Lines with S-phase             Not delete
+ 3: Lines with SPEC-phase          Not delete
+ 4: Lines with IAML-phase          Not delete
+ 5: Lines with IASP-AMP phase      Not delete
+ 6: Lines with AM, AT and AS phase Not delete
+ 7: Lines with END phase           Not delete
+ 8: Lines with BAZ phase           Not delete
+ 9: Lines with any phase           Delete
+10: Lines with fp solutions        Not delete
+11: Phases with given stations     Not delete
+>enter
+las borra todas
+#para marcar p y s le doy zoom marcando to y tf
+#flechita de arriba y abajo para ubicarme mejor
+#para marcar P=1 y S=8, me pongo encima de la p (sin clickear) y oprimo los respectivos números.
 
