@@ -1,0 +1,519 @@
+C:\Users\perfil.CAMPUSUNINORTE>cd ..
+
+C:\Users>cd ..
+
+C:\>cd seismo
+
+C:\Seismo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F651-9EF4
+
+ Directorio de C:\Seismo
+
+25/10/2022  07:28 a. m.    <DIR>          .
+25/10/2022  07:28 a. m.    <DIR>          CAL
+25/10/2022  07:28 a. m.    <DIR>          COM
+25/10/2022  07:28 a. m.    <DIR>          DAT
+25/10/2022  07:28 a. m.    <DIR>          INC
+25/10/2022  07:28 a. m.    <DIR>          INF
+25/10/2022  07:28 a. m.    <DIR>          ISO
+25/10/2022  07:28 a. m.    <DIR>          LIB
+25/10/2022  07:28 a. m.    <DIR>          PIC
+25/10/2022  07:28 a. m.    <DIR>          PRO
+25/10/2022  07:28 a. m.    <DIR>          REA
+25/10/2022  07:28 a. m.    <DIR>          SUP
+25/10/2022  07:28 a. m.    <DIR>          TMP
+25/10/2022  07:28 a. m.    <DIR>          WAV
+25/10/2022  07:28 a. m.    <DIR>          WOR
+               0 archivos              0 bytes
+              15 dirs  33.227.145.216 bytes libres
+
+C:\Seismo>cd REA
+
+C:\Seismo\REA>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F651-9EF4
+
+ Directorio de C:\Seismo\REA
+
+25/10/2022  07:28 a. m.    <DIR>          .
+25/10/2022  07:28 a. m.    <DIR>          ..
+25/10/2022  07:28 a. m.    <DIR>          DELET
+25/10/2022  07:28 a. m.    <DIR>          TEST_
+               0 archivos              0 bytes
+               4 dirs  33.225.580.544 bytes libres
+
+C:\Seismo\REA>test_
+"test_" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Seismo\REA>test
+"test" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Seismo\REA>TEST_
+"TEST_" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Seismo\REA>DIR>TEST_
+Acceso denegado.
+
+C:\Seismo\REA>
+C:\Seismo\REA>
+C:\Seismo\REA>
+C:\Seismo\REA>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F651-9EF4
+
+ Directorio de C:\Seismo\REA
+
+25/10/2022  07:28 a. m.    <DIR>          .
+25/10/2022  07:28 a. m.    <DIR>          ..
+25/10/2022  07:28 a. m.    <DIR>          DELET
+25/10/2022  07:28 a. m.    <DIR>          TEST_
+               0 archivos              0 bytes
+               4 dirs  30.347.206.656 bytes libres
+
+C:\Seismo\REA>
+C:\Seismo\REA>
+C:\Seismo\REA>
+C:\Seismo\REA>cd TEST_
+
+C:\Seismo\REA\TEST_>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F651-9EF4
+
+ Directorio de C:\Seismo\REA\TEST_
+
+25/10/2022  07:28 a. m.    <DIR>          .
+25/10/2022  07:28 a. m.    <DIR>          ..
+25/10/2022  07:28 a. m.    <DIR>          1996
+25/10/2022  07:28 a. m.    <DIR>          2021
+               0 archivos              0 bytes
+               4 dirs  30.348.660.736 bytes libres
+
+C:\Seismo\REA\TEST_>cd 1996
+
+C:\Seismo\REA\TEST_\1996>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F651-9EF4
+
+ Directorio de C:\Seismo\REA\TEST_\1996
+
+25/10/2022  07:28 a. m.    <DIR>          .
+25/10/2022  07:28 a. m.    <DIR>          ..
+25/10/2022  07:28 a. m.    <DIR>          06
+               0 archivos              0 bytes
+               3 dirs  30.348.582.912 bytes libres
+
+C:\Seismo\REA\TEST_\1996>cd 06
+
+C:\Seismo\REA\TEST_\1996\06>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: F651-9EF4
+
+ Directorio de C:\Seismo\REA\TEST_\1996\06
+
+25/10/2022  07:28 a. m.    <DIR>          .
+25/10/2022  07:28 a. m.    <DIR>          ..
+29/06/2021  11:31 a. m.             2.460 03-1955-35D.S199606
+29/06/2021  11:31 a. m.             6.314 25-0337-32L.S199606
+               2 archivos          8.774 bytes
+               2 dirs  30.348.648.448 bytes libres
+
+C:\Seismo\REA\TEST_\1996\06>eev
+
+  Local directory
+ Give operator code, max 3 characters
+paulina
+ Reading events from base ,,     2
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+
+#    1  3 Jun 1996 19:55 35  D  47.769 153.216  0.7    1.1  5.0sTES  12  ?
+#    2 25 Jun 1996 03:37 32  L  61.588   3.495 15.1    1.0  3.2LTES  31  ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
