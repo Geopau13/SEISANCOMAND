@@ -1,0 +1,437 @@
+Microsoft Windows [Versión 10.0.22000.1098]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Perfil>>cd..
+La sintaxis del comando no es correcta.
+
+C:\Users\Perfil>.INFOSALAJ>cd..
+".INFOSALAJ" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\Perfil>cd ..
+
+C:\Users> cd seismo
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users>cd ..
+
+C:\> seismo
+"seismo" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\> cd seismo
+
+C:\Seismo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo
+
+27/10/2022  06:38 a. m.    <DIR>          .
+27/10/2022  06:38 a. m.    <DIR>          CAL
+27/10/2022  06:38 a. m.    <DIR>          COM
+27/10/2022  06:38 a. m.    <DIR>          DAT
+27/10/2022  06:38 a. m.    <DIR>          INC
+27/10/2022  06:38 a. m.    <DIR>          INF
+27/10/2022  06:38 a. m.    <DIR>          ISO
+27/10/2022  06:38 a. m.    <DIR>          LIB
+27/10/2022  06:38 a. m.    <DIR>          PIC
+27/10/2022  06:38 a. m.    <DIR>          PRO
+27/10/2022  06:38 a. m.    <DIR>          REA
+27/10/2022  06:38 a. m.    <DIR>          SUP
+27/10/2022  06:38 a. m.    <DIR>          TMP
+27/10/2022  06:38 a. m.    <DIR>          WAV
+10/11/2022  11:32 a. m.    <DIR>          WOR
+               0 archivos              0 bytes
+              15 dirs  52.506.427.392 bytes libres
+
+C:\Seismo> cd WOR
+
+C:\Seismo\WOR>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo\WOR
+
+10/11/2022  11:32 a. m.    <DIR>          .
+27/10/2022  06:38 a. m.    <DIR>          ..
+10/11/2022  11:32 a. m.    <DIR>          carpetasismo
+27/10/2022  11:26 a. m.               362 se-gmap.kml
+               1 archivos            362 bytes
+               3 dirs  52.506.427.392 bytes libres
+
+C:\Seismo\WOR>carpetasismo
+"carpetasismo" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Seismo\WOR>cd carpetasismo
+
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo\WOR\carpetasismo
+
+10/11/2022  11:32 a. m.    <DIR>          .
+10/11/2022  11:32 a. m.    <DIR>          ..
+10/11/2022  11:30 a. m.           396.192 1999_01_1999-01-02-1017-42S.COL___008
+10/11/2022  11:29 a. m.           625.200 1999_01_1999-01-14-1219-27S.COL___011
+10/11/2022  11:29 a. m.           660.032 1999_01_1999-01-27-1405-43S.COL___011
+10/11/2022  11:30 a. m.           637.528 1999_01_1999-01-29-0631-46S.COL___012
+10/11/2022  11:30 a. m.           846.932 1999_02_1999-02-12-1058-45S.COL___014
+10/11/2022  11:30 a. m.           824.684 1999_02_1999-02-27-0111-19S.COL___014
+10/11/2022  11:30 a. m.           662.004 1999_04_1999-04-14-0724-17S.COL___012
+10/11/2022  11:30 a. m.           504.932 1999_04_1999-04-19-0120-53S.COL___012
+10/11/2022  11:30 a. m.           550.880 1999_04_1999-04-30-0700-01S.COL___010
+               9 archivos      5.708.384 bytes
+               2 dirs  52.499.795.968 bytes libres
+
+C:\Seismo\WOR\carpetasismo>dirf 19*.*
+ #  1  1999_01_1999-01-02-1017-42S.COL___008
+ #  2  1999_01_1999-01-14-1219-27S.COL___011
+ #  3  1999_01_1999-01-27-1405-43S.COL___011
+ #  4  1999_01_1999-01-29-0631-46S.COL___012
+ #  5  1999_02_1999-02-12-1058-45S.COL___014
+ #  6  1999_02_1999-02-27-0111-19S.COL___014
+ #  7  1999_04_1999-04-14-0724-17S.COL___012
+ #  8  1999_04_1999-04-19-0120-53S.COL___012
+ #  9  1999_04_1999-04-30-0700-01S.COL___010
+
+C:\Seismo\WOR\carpetasismo>mulplt
+  Filename, number, filenr.lis (all)
+  Continuous SEISAN data base: cont
+  Large SEED volume: conts
+  Archive: arc
+  Make a choice
+1
+
+  Plot options: Interactive picking          Return
+                Multi trace plot on screen, def (0)
+                Multi trace plot on screen      (1)
+                Multi trace plot on screen+laser(2)
+                Multi trace plot on laser       (3)
+                Continuoues on screen           (4)
+                Continuoues on screen + laser   (5)
+                Continuoues on laser            (6)
+                Stop                            (q)
+0
+  Low and high cut for filter, return for no filter
+
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+  Give operator code (max 4 char)
+pau
+  Give 2-5 letter data base, ,, for local dir, return for default base
+paulina
+
+ S-file name:   C:\Seismo\REA\pauli\1999\01\02-1017-42L.S199901
+ GO AHEAD (Y/N)
+Y
+
+ **** WARN: problem opening file                    ****
+           C:\Seismo\REA\pauli\1999\01\02-1017-42L.S199901
+ ****                                               ****
+
+ **** WARN: halting program in SEIOPEN              ****
+ ****       ...closing down files                   ****
+
+C:\Seismo\WOR\carpetasismo>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo\WOR\carpetasismo
+
+10/11/2022  11:45 a. m.    <DIR>          .
+10/11/2022  11:32 a. m.    <DIR>          ..
+10/11/2022  11:30 a. m.           396.192 1999_01_1999-01-02-1017-42S.COL___008
+10/11/2022  11:29 a. m.           625.200 1999_01_1999-01-14-1219-27S.COL___011
+10/11/2022  11:29 a. m.           660.032 1999_01_1999-01-27-1405-43S.COL___011
+10/11/2022  11:30 a. m.           637.528 1999_01_1999-01-29-0631-46S.COL___012
+10/11/2022  11:30 a. m.           846.932 1999_02_1999-02-12-1058-45S.COL___014
+10/11/2022  11:30 a. m.           824.684 1999_02_1999-02-27-0111-19S.COL___014
+10/11/2022  11:30 a. m.           662.004 1999_04_1999-04-14-0724-17S.COL___012
+10/11/2022  11:30 a. m.           504.932 1999_04_1999-04-19-0120-53S.COL___012
+10/11/2022  11:30 a. m.           550.880 1999_04_1999-04-30-0700-01S.COL___010
+10/11/2022  11:45 a. m.               713 filenr.lis
+10/11/2022  11:45 a. m.               328 mulplt.out
+              11 archivos      5.709.425 bytes
+               2 dirs  52.499.197.952 bytes libres
+
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>
+C:\Seismo\WOR\carpetasismo>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo\WOR\carpetasismo
+
+10/11/2022  11:45 a. m.    <DIR>          .
+10/11/2022  11:32 a. m.    <DIR>          ..
+10/11/2022  11:30 a. m.           396.192 1999_01_1999-01-02-1017-42S.COL___008
+10/11/2022  11:29 a. m.           625.200 1999_01_1999-01-14-1219-27S.COL___011
+10/11/2022  11:29 a. m.           660.032 1999_01_1999-01-27-1405-43S.COL___011
+10/11/2022  11:30 a. m.           637.528 1999_01_1999-01-29-0631-46S.COL___012
+10/11/2022  11:30 a. m.           846.932 1999_02_1999-02-12-1058-45S.COL___014
+10/11/2022  11:30 a. m.           824.684 1999_02_1999-02-27-0111-19S.COL___014
+10/11/2022  11:30 a. m.           662.004 1999_04_1999-04-14-0724-17S.COL___012
+10/11/2022  11:30 a. m.           504.932 1999_04_1999-04-19-0120-53S.COL___012
+10/11/2022  11:30 a. m.           550.880 1999_04_1999-04-30-0700-01S.COL___010
+10/11/2022  11:45 a. m.               713 filenr.lis
+10/11/2022  11:45 a. m.               328 mulplt.out
+              11 archivos      5.709.425 bytes
+               2 dirs  51.547.271.168 bytes libres
+
+C:\Seismo\WOR\carpetasismo>eev
+
+  Local directory
+ Give operator code, max 3 characters
+paulina
+ Reading events from base ,,     0
+  No events in local directory
+
+C:\Seismo\WOR\carpetasismo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo\WOR\carpetasismo
+
+10/11/2022  12:06 p. m.    <DIR>          .
+10/11/2022  11:32 a. m.    <DIR>          ..
+10/11/2022  11:30 a. m.           396.192 1999_01_1999-01-02-1017-42S.COL___008
+10/11/2022  11:29 a. m.           625.200 1999_01_1999-01-14-1219-27S.COL___011
+10/11/2022  11:29 a. m.           660.032 1999_01_1999-01-27-1405-43S.COL___011
+10/11/2022  11:30 a. m.           637.528 1999_01_1999-01-29-0631-46S.COL___012
+10/11/2022  11:30 a. m.           846.932 1999_02_1999-02-12-1058-45S.COL___014
+10/11/2022  11:30 a. m.           824.684 1999_02_1999-02-27-0111-19S.COL___014
+10/11/2022  11:30 a. m.           662.004 1999_04_1999-04-14-0724-17S.COL___012
+10/11/2022  11:30 a. m.           504.932 1999_04_1999-04-19-0120-53S.COL___012
+10/11/2022  11:30 a. m.           550.880 1999_04_1999-04-30-0700-01S.COL___010
+10/11/2022  11:45 a. m.               713 filenr.lis
+10/11/2022  11:45 a. m.               328 mulplt.out
+              11 archivos      5.709.425 bytes
+               2 dirs  51.549.560.832 bytes libres
+
+C:\Seismo\WOR\carpetasismo>cd 010
+El sistema no puede encontrar la ruta especificada.
+
+C:\Seismo\WOR\carpetasismo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: D8B3-0109
+
+ Directorio de C:\Seismo\WOR\carpetasismo
+
+10/11/2022  12:06 p. m.    <DIR>          .
+10/11/2022  11:32 a. m.    <DIR>          ..
+10/11/2022  11:30 a. m.           396.192 1999_01_1999-01-02-1017-42S.COL___008
+10/11/2022  11:29 a. m.           625.200 1999_01_1999-01-14-1219-27S.COL___011
+10/11/2022  11:29 a. m.           660.032 1999_01_1999-01-27-1405-43S.COL___011
+10/11/2022  11:30 a. m.           637.528 1999_01_1999-01-29-0631-46S.COL___012
+10/11/2022  11:30 a. m.           846.932 1999_02_1999-02-12-1058-45S.COL___014
+10/11/2022  11:30 a. m.           824.684 1999_02_1999-02-27-0111-19S.COL___014
+10/11/2022  11:30 a. m.           662.004 1999_04_1999-04-14-0724-17S.COL___012
+10/11/2022  11:30 a. m.           504.932 1999_04_1999-04-19-0120-53S.COL___012
+10/11/2022  11:30 a. m.           550.880 1999_04_1999-04-30-0700-01S.COL___010
+10/11/2022  11:45 a. m.               713 filenr.lis
+10/11/2022  11:45 a. m.               328 mulplt.out
+              11 archivos      5.709.425 bytes
+               2 dirs  51.539.202.048 bytes libres
+
+C:\Seismo\WOR\carpetasismo>dir
+
+C:\Seismo\WOR\carpetasismo>dirf 19*.*
+ #  1  1999_01_1999-01-02-1017-42S.COL___008
+ #  2  1999_01_1999-01-14-1219-27S.COL___011
+ #  3  1999_01_1999-01-27-1405-43S.COL___011
+ #  4  1999_01_1999-01-29-0631-46S.COL___012
+ #  5  1999_02_1999-02-12-1058-45S.COL___014
+ #  6  1999_02_1999-02-27-0111-19S.COL___014
+ #  7  1999_04_1999-04-14-0724-17S.COL___012
+ #  8  1999_04_1999-04-19-0120-53S.COL___012
+ #  9  1999_04_1999-04-30-0700-01S.COL___010
+
+C:\Seismo\WOR\carpetasismo>mulplt
+  Filename, number, filenr.lis (all)
+  Continuous SEISAN data base: cont
+  Large SEED volume: conts
+  Archive: arc
+  Make a choice
+1
+
+  Plot options: Interactive picking          Return
+                Multi trace plot on screen, def (0)
+                Multi trace plot on screen      (1)
+                Multi trace plot on screen+laser(2)
+                Multi trace plot on laser       (3)
+                Continuoues on screen           (4)
+                Continuoues on screen + laser   (5)
+                Continuoues on laser            (6)
+                Stop                            (q)
+0
+  Low and high cut for filter, return for no filter
+
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+  Give operator code (max 4 char)
+pauli
+  Give 2-5 letter data base, ,, for local dir, return for default base
+,,
+
+ S-file name:   02-1017-42L.S199901
+ GO AHEAD (Y/N)
+Y
+ copy 1999_01_1999-01-02-1017-42S.COL___008 C:\Seismo\WAV\1999_01_1999-01-02-1017-42S.COL___008
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           2
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   14-1219-27L.S199901
+ GO AHEAD (Y/N)
+Y
+ copy 1999_01_1999-01-14-1219-27S.COL___011 C:\Seismo\WAV\1999_01_1999-01-14-1219-27S.COL___011
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           3
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   27-1405-43L.S199901
+ GO AHEAD (Y/N)
+Y
+ copy 1999_01_1999-01-27-1405-43S.COL___011 C:\Seismo\WAV\1999_01_1999-01-27-1405-43S.COL___011
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           4
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   29-0631-46L.S199901
+ GO AHEAD (Y/N)
+Y
+ copy 1999_01_1999-01-29-0631-46S.COL___012 C:\Seismo\WAV\1999_01_1999-01-29-0631-46S.COL___012
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           5
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   12-1058-45L.S199902
+ GO AHEAD (Y/N)
+Y
+ copy 1999_02_1999-02-12-1058-45S.COL___014 C:\Seismo\WAV\1999_02_1999-02-12-1058-45S.COL___014
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           6
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   27-0111-19L.S199902
+ GO AHEAD (Y/N)
+Y
+ copy 1999_02_1999-02-27-0111-19S.COL___014 C:\Seismo\WAV\1999_02_1999-02-27-0111-19S.COL___014
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           7
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   14-0724-17L.S199904
+ GO AHEAD (Y/N)
+Y
+ copy 1999_04_1999-04-14-0724-17S.COL___012 C:\Seismo\WAV\1999_04_1999-04-14-0724-17S.COL___012
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           8
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) Y
+  WRONG TYPE, TRY AGAIN
+L
+
+ S-file name:   19-0120-53L.S199904
+ GO AHEAD (Y/N)
+Y
+ copy 1999_04_1999-04-19-0120-53S.COL___012 C:\Seismo\WAV\1999_04_1999-04-19-0120-53S.COL___012
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           9
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) L
+
+ S-file name:   30-0700-01L.S199904
+ GO AHEAD (Y/N)
+Y
+ copy 1999_04_1999-04-30-0700-01S.COL___010 C:\Seismo\WAV\1999_04_1999-04-30-0700-01S.COL___010
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber          10
+  File number too large
+
+C:\Seismo\WOR\carpetasismo>eev
+
+  Local directory
+ Give operator code, max 3 characters
+pauli
+ Reading events from base ,,     9
+#    1  2 Jan 1999 10:17 42  L                                           ?
+#    2 14 Jan 1999 12:19 27  L                                           ?
+#    3 27 Jan 1999 14: 5 43  L                                           ?
+#    4 29 Jan 1999  6:31 47  L                                           ?
+#    5 12 Feb 1999 10:58 45  L                                           ?
+#    6 27 Feb 1999  1:11 19  L                                           ?
+#    7 14 Apr 1999  7:24 17  L                                           ?
+#    8 19 Apr 1999  1:20 53  L                                           ?
+#    9 30 Apr 1999  7: 0  1  L                                           ?
+
+#    1  2 Jan 1999 10:17 42  L                                           ?
+#    2 14 Jan 1999 12:19 27  L                                           ? po
+ 14-1219-27L.S199901
+ type L  NPHASE= 0  NOT LOCATABLE
+  Too few phases
+  Too few stations
+ 1999  114 1219 27.9 L                       TES
+ OLD:
+
+  Return to continue
+  U to update
