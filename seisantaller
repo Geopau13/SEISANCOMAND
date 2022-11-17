@@ -1,0 +1,955 @@
+Microsoft Windows [Versión 10.0.22621.521]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Perfil>cd seismo
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\Perfil>cd ..
+
+C:\Users>cd seismo
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users>INFOSALA J
+"INFOSALA" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users>cd INFOSALA J
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users>CD..
+
+C:\>cd seismo
+
+C:\Seismo>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1E68-528C
+
+ Directorio de C:\Seismo
+
+27/10/2022  05:42 a. m.    <DIR>          .
+27/10/2022  05:42 a. m.    <DIR>          CAL
+27/10/2022  05:42 a. m.    <DIR>          COM
+17/11/2022  10:27 a. m.    <DIR>          DAT
+27/10/2022  05:42 a. m.    <DIR>          INC
+27/10/2022  05:42 a. m.    <DIR>          INF
+27/10/2022  05:42 a. m.    <DIR>          ISO
+27/10/2022  05:42 a. m.    <DIR>          LIB
+27/10/2022  05:42 a. m.    <DIR>          PIC
+27/10/2022  05:42 a. m.    <DIR>          PRO
+27/10/2022  05:42 a. m.    <DIR>          REA
+27/10/2022  05:42 a. m.    <DIR>          SUP
+27/10/2022  05:42 a. m.    <DIR>          TMP
+27/10/2022  05:42 a. m.    <DIR>          WAV
+17/11/2022  10:25 a. m.    <DIR>          WOR
+               0 archivos              0 bytes
+              15 dirs  41.219.395.584 bytes libres
+
+C:\Seismo>cd WOR
+
+C:\Seismo\WOR>DIR
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1E68-528C
+
+ Directorio de C:\Seismo\WOR
+
+17/11/2022  10:25 a. m.    <DIR>          .
+27/10/2022  05:42 a. m.    <DIR>          ..
+17/11/2022  10:21 a. m.           655.512 1996_02_1996-02-10-2021-41S.COL___012
+17/11/2022  10:21 a. m.           694.616 1996_02_1996-02-14-0016-49S.COL___013
+17/11/2022  10:21 a. m.         1.208.928 1996_02_1996-02-15-1819-57S.COL___013
+17/11/2022  10:21 a. m.           894.272 1996_02_1996-02-18-0538-06S.COL___012
+               4 archivos      3.453.328 bytes
+               2 dirs  41.221.853.184 bytes libres
+
+C:\Seismo\WOR>dirf 19*.*
+ #  1  1996_02_1996-02-10-2021-41S.COL___012
+ #  2  1996_02_1996-02-14-0016-49S.COL___013
+ #  3  1996_02_1996-02-15-1819-57S.COL___013
+ #  4  1996_02_1996-02-18-0538-06S.COL___012
+
+C:\Seismo\WOR>mulplt
+  Filename, number, filenr.lis (all)
+  Continuous SEISAN data base: cont
+  Large SEED volume: conts
+  Archive: arc
+  Make a choice
+1
+
+  Plot options: Interactive picking          Return
+                Multi trace plot on screen, def (0)
+                Multi trace plot on screen      (1)
+                Multi trace plot on screen+laser(2)
+                Multi trace plot on laser       (3)
+                Continuoues on screen           (4)
+                Continuoues on screen + laser   (5)
+                Continuoues on laser            (6)
+                Stop                            (q)
+0
+  Low and high cut for filter, return for no filter
+
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) l
+  Give operator code (max 4 char)
+pau
+  Give 2-5 letter data base, ,, for local dir, return for default base
+pauli
+
+ S-file name:   C:\Seismo\REA\pauli\1996\02\10-2021-41L.S199602
+ GO AHEAD (Y/N)
+y
+
+ **** WARN: problem opening file                    ****
+           C:\Seismo\REA\pauli\1996\02\10-2021-41L.S199602
+ ****                                               ****
+
+ **** WARN: halting program in SEIOPEN              ****
+ ****       ...closing down files                   ****
+
+C:\Seismo\WOR>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1E68-528C
+
+ Directorio de C:\Seismo\WOR
+
+17/11/2022  10:32 a. m.    <DIR>          .
+27/10/2022  05:42 a. m.    <DIR>          ..
+17/11/2022  10:21 a. m.           655.512 1996_02_1996-02-10-2021-41S.COL___012
+17/11/2022  10:21 a. m.           694.616 1996_02_1996-02-14-0016-49S.COL___013
+17/11/2022  10:21 a. m.         1.208.928 1996_02_1996-02-15-1819-57S.COL___013
+17/11/2022  10:21 a. m.           894.272 1996_02_1996-02-18-0538-06S.COL___012
+17/11/2022  10:32 a. m.               318 filenr.lis
+17/11/2022  10:32 a. m.               328 mulplt.out
+               6 archivos      3.453.974 bytes
+               2 dirs  40.904.523.776 bytes libres
+
+C:\Seismo\WOR>eev
+
+  Local directory
+ Give operator code, max 3 characters
+pau
+ Reading events from base ,,     0
+  No events in local directory
+
+C:\Seismo\WOR>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 1E68-528C
+
+ Directorio de C:\Seismo\WOR
+
+17/11/2022  10:34 a. m.    <DIR>          .
+27/10/2022  05:42 a. m.    <DIR>          ..
+17/11/2022  10:21 a. m.           655.512 1996_02_1996-02-10-2021-41S.COL___012
+17/11/2022  10:21 a. m.           694.616 1996_02_1996-02-14-0016-49S.COL___013
+17/11/2022  10:21 a. m.         1.208.928 1996_02_1996-02-15-1819-57S.COL___013
+17/11/2022  10:21 a. m.           894.272 1996_02_1996-02-18-0538-06S.COL___012
+17/11/2022  10:32 a. m.               318 filenr.lis
+17/11/2022  10:32 a. m.               328 mulplt.out
+               6 archivos      3.453.974 bytes
+               2 dirs  40.985.964.544 bytes libres
+
+C:\Seismo\WOR>mulplt
+  Filename, number, filenr.lis (all)
+  Continuous SEISAN data base: cont
+  Large SEED volume: conts
+  Archive: arc
+  Make a choice
+1
+
+  Plot options: Interactive picking          Return
+                Multi trace plot on screen, def (0)
+                Multi trace plot on screen      (1)
+                Multi trace plot on screen+laser(2)
+                Multi trace plot on laser       (3)
+                Continuoues on screen           (4)
+                Continuoues on screen + laser   (5)
+                Continuoues on laser            (6)
+                Stop                            (q)
+0
+  Low and high cut for filter, return for no filter
+
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) l
+  Give operator code (max 4 char)
+paula
+  Give 2-5 letter data base, ,, for local dir, return for default base
+,,
+
+ S-file name:   10-2021-41L.S199602
+ GO AHEAD (Y/N)
+y
+ copy 1996_02_1996-02-10-2021-41S.COL___012 C:\Seismo\WAV\1996_02_1996-02-10-2021-41S.COL___012                         
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           2
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) l
+
+ S-file name:   14-0016-49L.S199602
+ GO AHEAD (Y/N)
+y
+ copy 1996_02_1996-02-14-0016-49S.COL___013 C:\Seismo\WAV\1996_02_1996-02-14-0016-49S.COL___013                         
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           3
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) l
+
+ S-file name:   15-1819-57L.S199602
+ GO AHEAD (Y/N)
+y
+ copy 1996_02_1996-02-15-1819-57S.COL___013 C:\Seismo\WAV\1996_02_1996-02-15-1819-57S.COL___013                         
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           4
+
+ ENTER EVENT TYPE L,R OR D
+ Second. optional character for event ID (e.g. E)
+ Third optional character for model ID (e.g. J) l
+
+ S-file name:   18-0538-06L.S199602
+ GO AHEAD (Y/N)
+y
+ copy 1996_02_1996-02-18-0538-06S.COL___012 C:\Seismo\WAV\1996_02_1996-02-18-0538-06S.COL___012                         
+        1 archivo(s) copiado(s).
+  File transferred to WAV **********
+
+  Filenumber           5
+  File number too large
+
+C:\Seismo\WOR>eev
+
+  Local directory
+ Give operator code, max 3 characters
+pau
+ Reading events from base ,,     4
+#    1 10 Feb 1996 20:21 41  L                                           ?
+#    2 14 Feb 1996  0:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996  5:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:21 41  L                                           ?
+#    2 14 Feb 1996  0:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996  5:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:21 41  L                                           ?
+#    2 14 Feb 1996  0:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996  5:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:21 41  L                                           ?
+#    2 14 Feb 1996  0:16 49  L                                           ? po
+#    2 14 Feb 1996 00:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996  5:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:21 41  L                                           ? po
+#    1 10 Feb 1996 20:21 41  L                                           ?
+#    2 14 Feb 1996 00:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ? po
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996  5:38  6  L                                           ? po
+
+#    4 18 Feb 1996 05:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:21 41  L                                           ?
+#    2 14 Feb 1996 00:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996 05:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:21 41  L                                           ? po
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.86  416.59N  75 47.7W 202.1   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.30  27.61   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.38  49.14   9.24 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.49  30.04   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.96  53.48   5.49 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.97  34.00  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.28  60.53  18.76 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.40  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.12  61.76  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.12  39.82   6.30 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.83  70.88   6.96 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.82  45.55   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.41  81.08 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.27  45.85  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.22  81.62 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.22  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.09  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.01  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.04  99.80 -36.76 1.00  8
+ Return to continue, q to end listing qq
+
+ 1996  210 2022 22.9 L   4.276 -75.795202.1  TES 1016.0
+ OLD: 0210 2021 41.7 L
+
+  Return to continue
+  U to update
+u
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.86  416.59N  75 47.7W 202.1   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.30  27.61   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.38  49.14   9.24 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.49  30.04   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.96  53.48   5.49 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.97  34.00  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.28  60.53  18.76 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.40  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.12  61.76  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.12  39.82   6.30 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.83  70.88   6.96 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.82  45.55   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.41  81.08 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.27  45.85  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.22  81.62 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.22  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.09  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.01  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.04  99.80 -36.76 1.00  8
+ CUM    433 212.3112.6 0 S     C SG      2023 40.7  77.83 108.90 -31.07 1.00  5
+ CUM    433 212.3112.6 0 P       PG      2023 39.9  77.02  61.18  15.84 1.00  4
+
+ 1996  210 2022 22.9 L   4.276 -75.795202.1  TES 1016.0
+ OLD: 0210 2021 41.7 L
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.85  416.59N  75 47.7W 202.2   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.31  27.62   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.39  49.16   9.23 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.50  30.05   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.97  53.49   5.48 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.98  34.01  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.29  60.54  18.75 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.41  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.13  61.77  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.13  39.82   6.31 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.84  70.89   6.95 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.83  45.56   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.42  81.09 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.28  45.86  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.23  81.63 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.23  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.10  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.02  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.05  99.80 -36.75 1.00  8
+ Return to continue, q to end listing q
+
+ 1996  210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+ OLD: 0210 2022 22.9 L   4.276 -75.795202.1  TES 1016.0
+
+  Return to continue
+  U to update
+u
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.85  416.59N  75 47.7W 202.2   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.31  27.62   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.39  49.16   9.23 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.50  30.05   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.97  53.49   5.48 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.98  34.01  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.29  60.54  18.75 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.41  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.13  61.77  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.13  39.82   6.31 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.84  70.89   6.95 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.83  45.56   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.42  81.09 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.28  45.86  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.23  81.63 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.23  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.10  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.02  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.05  99.80 -36.75 1.00  8
+ CUM    433 212.3112.6 0 P       PG      2023 39.9  77.03  61.18  15.85 1.00  4
+ CUM    433 212.3112.6 0 S     C SG      2023 40.7  77.84 108.91 -31.07 1.00  5
+
+ 1996  210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+ OLD: 0210 2022 22.9 L   4.276 -75.795202.1  TES 1016.0
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.85  416.59N  75 47.7W 202.2   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.31  27.62   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.39  49.16   9.23 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.50  30.05   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.97  53.49   5.48 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.98  34.01  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.29  60.54  18.75 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.41  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.13  61.77  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.13  39.82   6.31 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.84  70.89   6.95 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.83  45.56   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.42  81.09 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.28  45.86  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.23  81.63 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.23  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.10  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.02  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.05  99.80 -36.75 1.00  8
+ Return to continue, q to end listing
+ CUM    433 212.3112.6 0 P       PG      2023 39.9  77.03  61.18  15.85 1.00  4
+ CUM    433 212.3112.6 0 S     C SG      2023 40.7  77.84 108.91 -31.07 1.00  5
+
+ 1996  210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+ OLD: 0210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+
+  Return to continue
+  U to update
+
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? e
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? gmap
+  Location map is generated for maps.google.com
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? gmaphj
+  Location map is generated for maps.google.com
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ?
+#    2 14 Feb 1996 00:16 49  L                                           ? gmap
+  Location map is generated for maps.google.com
+  sorry but you need to have a location !
+#    2 14 Feb 1996 00:16 49  L                                           ?
+#    3 15 Feb 1996 18:19 57  L                                           ? gmap
+  Location map is generated for maps.google.com
+  sorry but you need to have a location !
+#    3 15 Feb 1996 18:19 57  L                                           ? gmap
+  Location map is generated for maps.google.com
+  sorry but you need to have a location !
+#    3 15 Feb 1996 18:19 57  L                                           ? gmap
+  Location map is generated for maps.google.com
+  sorry but you need to have a location !
+#    3 15 Feb 1996 18:19 57  L                                           ?
+#    4 18 Feb 1996 05:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ?
+#    2 14 Feb 1996 00:16 49  L                                           ? gmap
+  Location map is generated for maps.google.com
+  sorry but you need to have a location !
+#    2 14 Feb 1996 00:16 49  L                                           ? po
+ 14-0016-49L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 214  017 57.60  513.99N  75  4.1W 138.8   19 3  20.93 0.000160.1154.9326.4
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     77 201.2149.5 0 P       PG       018 35.4  37.80  21.23  16.57 1.00  1
+ TOL     77 201.2149.5 0 S       SG       018 38.3  40.66  37.79   2.86 1.00 14
+ CHI    163 114.0127.7 0 P       PG       018 23.7  26.12  28.34  -2.23 1.00  5
+ CHI    163 114.0127.7 0 S       SG       018 25.8  28.20  50.45 -22.25 1.00 11
+ PRA    169 173.1126.2 0 S     C SG       019 27.6  89.99  50.73  39.26 1.00  5
+ PRA    169 173.1126.2 0 P       PG       018 39.5  41.87  28.50  13.37 1.00  1
+ BAR    261  53.3114.2 0 P       PG       018  5.8   8.17  38.49 -30.32 1.00 12
+ BET    285 188.4112.0 0 P       PG       018 53.6  55.97  40.94  15.02 1.00  1
+ BET    285 188.4112.0 0 S       SG       018 59.3  61.68  72.88 -11.20 1.00  3
+ MAL    285 241.9112.0 0 P       PG       019  0.4  62.79  40.88  21.90 1.00  2
+ MAL    285 241.9112.0 0 S     C SG       019  4.4  66.85  72.77  -5.92 1.00  6
+ SOL    293 295.5111.4 0 P       PG       018 51.1  53.53  41.73  11.79 1.00  6
+ SOL    293 295.5111.4 0 S     C SG       018 53.3  55.75  74.29 -18.54 1.00 14
+ FLO    409 189.2104.5 0 P       PG       019  7.9  70.31  55.25  15.06 1.00  2
+ FLO    409 189.2104.5 0 S       SG       019  9.9  72.26  98.34 -26.09 1.00  4
+ CRU    463 206.9102.4 0 P       PG       019 20.0  82.43  62.08  20.35 1.00  2
+ CRU    463 206.9102.4 0 S     C SG       019 23.4  85.84 110.50 -24.66 1.00  4
+ CUM    566 213.5 99.4 0 S     C SG       019 35.4  97.84 132.82 -34.98 1.00  4
+ Return to continue, q to end listing qq
+
+ 1996  214 0017 57.6 L   5.233 -75.069138.8  TES 1020.9
+ OLD: 0214 0016 49.4 L
+
+  Return to continue
+  U to update
+u
+ 14-0016-49L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 214  017 57.60  513.99N  75  4.1W 138.8   19 3  20.93 0.000160.1154.9326.4
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     77 201.2149.5 0 P       PG       018 35.4  37.80  21.23  16.57 1.00  1
+ TOL     77 201.2149.5 0 S       SG       018 38.3  40.66  37.79   2.86 1.00 14
+ CHI    163 114.0127.7 0 P       PG       018 23.7  26.12  28.34  -2.23 1.00  5
+ CHI    163 114.0127.7 0 S       SG       018 25.8  28.20  50.45 -22.25 1.00 11
+ PRA    169 173.1126.2 0 S     C SG       019 27.6  89.99  50.73  39.26 1.00  5
+ PRA    169 173.1126.2 0 P       PG       018 39.5  41.87  28.50  13.37 1.00  1
+ BAR    261  53.3114.2 0 P       PG       018  5.8   8.17  38.49 -30.32 1.00 12
+ BET    285 188.4112.0 0 P       PG       018 53.6  55.97  40.94  15.02 1.00  1
+ BET    285 188.4112.0 0 S       SG       018 59.3  61.68  72.88 -11.20 1.00  3
+ MAL    285 241.9112.0 0 P       PG       019  0.4  62.79  40.88  21.90 1.00  2
+ MAL    285 241.9112.0 0 S     C SG       019  4.4  66.85  72.77  -5.92 1.00  6
+ SOL    293 295.5111.4 0 P       PG       018 51.1  53.53  41.73  11.79 1.00  6
+ SOL    293 295.5111.4 0 S     C SG       018 53.3  55.75  74.29 -18.54 1.00 14
+ FLO    409 189.2104.5 0 P       PG       019  7.9  70.31  55.25  15.06 1.00  2
+ FLO    409 189.2104.5 0 S       SG       019  9.9  72.26  98.34 -26.09 1.00  4
+ CRU    463 206.9102.4 0 P       PG       019 20.0  82.43  62.08  20.35 1.00  2
+ CRU    463 206.9102.4 0 S     C SG       019 23.4  85.84 110.50 -24.66 1.00  4
+ CUM    566 213.5 99.4 0 S     C SG       019 35.4  97.84 132.82 -34.98 1.00  4
+ CUM    566 213.5 99.4 0 P       PG       019 32.2  94.63  74.62  20.01 1.00  3
+
+ 1996  214 0017 57.6 L   5.233 -75.069138.8  TES 1020.9
+ OLD: 0214 0016 49.4 L
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+#    2 14 Feb 1996 00:17 57  L   5.233 -75.069138.8   20.9      TES  10  ? gmap
+  Location map is generated for maps.google.com
+#    2 14 Feb 1996 00:17 57  L   5.233 -75.069138.8   20.9      TES  10  ?
+#    3 15 Feb 1996 18:19 57  L                                           ? po
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1819 57.7 L
+
+  Return to continue
+  U to update
+u
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1819 57.7 L
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+
+  Return to continue
+  U to update
+u
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+
+  Return to continue
+  U to update
+u
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+
+  Return to continue
+  U to update
+u
+ 15-1819-57L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 215 1822 40.75  422.93N  74 40.9W  33.1   14 3   7.32 0.000 46.3 45.4 65.3
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     74 287.6 92.3 0 P       PG      1822 54.2  13.42  12.68   0.74 1.00  7
+ TOL     74 287.6 92.3 0 S     C SG      1822 54.4  13.69  22.57  -8.88 1.00 19
+ PRA     77 197.1 92.0 0 P       PG      1822 59.7  18.96  12.69   6.27 1.00  4
+ PRA     77 197.1 92.0 0 S     C SG      1823  0.0  19.29  22.59  -3.30 1.00 12
+ CHI    109  75.2 91.0 0 P       PG      1822 58.5  17.78  17.10   0.69 1.00  6
+ CHI    109  75.2 91.0 0 S       SG      1823  4.0  23.26  30.43  -7.17 1.00 16
+ BET    206 204.2 90.4 0 P       PG      1823 19.2  38.42  28.81   9.61 1.00  1
+ BET    206 204.2 90.4 0 S       SG      1823 29.6  48.89  51.28  -2.39 1.00  7
+ BAR    301  33.6 81.0 0 P       PN5     1823 19.0  38.26  40.72  -2.46 1.00  5
+ BAR    301  33.6 81.0 0 S       SN5     1823 55.8  75.02  72.49   2.53 1.00 14
+ FLO    328 199.3 81.0 0 P       PN5     1823 31.6  50.87  43.85   7.03 1.00  1
+ FLO    328 199.3 81.0 0 S       SN5     1823 41.5  60.72  78.04 -17.32 1.00  7
+ CRU    407 218.4 81.0 0 P       PN5     1823 42.8  62.02  53.98   8.04 1.00  1
+ CUM    519 223.3 81.0 0 P       PN5     1823 55.3  74.59  68.01   6.59 1.00  1
+
+ 1996  215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+ OLD: 0215 1822 40.7 L   4.382 -74.681 33.1  TES  8 7.3
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+#    3 15 Feb 1996 18:22 40  L   4.382 -74.681 33.1    7.3      TES   8  ? e
+#    3 15 Feb 1996 18:22 40  L   4.382 -74.681 33.1    7.3      TES   8  ? gmap
+  Location map is generated for maps.google.com
+#    3 15 Feb 1996 18:22 40  L   4.382 -74.681 33.1    7.3      TES   8  ?
+#    4 18 Feb 1996 05:38  6  L                                           ?
+
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ?
+#    2 14 Feb 1996 00:17 57  L   5.233 -75.069138.8   20.9      TES  10  ? po
+ 14-0016-49L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 214  017 57.46  514.15N  75  4.0W 140.3   19 3  20.93 0.000166.5159.4322.2
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     77 201.4149.7 0 P       PG       018 35.4  37.94  21.41  16.53 1.00  1
+ TOL     77 201.4149.7 0 S       SG       018 38.3  40.80  38.12   2.68 1.00 15
+ CHI    162 114.2128.1 0 P       PG       018 23.7  26.26  28.44  -2.18 1.00  5
+ CHI    162 114.2128.1 0 S       SG       018 25.8  28.34  50.63 -22.29 1.00 11
+ PRA    169 173.2126.6 0 P       PG       018 39.5  42.01  28.63  13.38 1.00  1
+ PRA    169 173.2126.6 0 S     C SG       019 27.6  90.13  50.97  39.16 1.00  5
+ BAR    261  53.3114.6 0 P       PG       018  5.8   8.31  38.52 -30.21 1.00 11
+ BET    286 188.4112.3 0 P       PG       018 53.6  56.11  41.05  15.06 1.00  1
+ BET    286 188.4112.3 0 S       SG       018 59.3  61.82  73.07 -11.25 1.00  3
+ MAL    286 241.9112.3 0 S     C SG       019  4.4  66.99  72.97  -5.98 1.00  6
+ MAL    286 241.9112.3 0 P       PG       019  0.4  62.93  40.99  21.94 1.00  2
+ SOL    293 295.5111.7 0 P       PG       018 51.1  53.67  41.82  11.85 1.00  6
+ SOL    293 295.5111.7 0 S     C SG       018 53.3  55.89  74.43 -18.54 1.00 14
+ FLO    409 189.2104.7 0 P       PG       019  7.9  70.45  55.34  15.11 1.00  2
+ FLO    409 189.2104.7 0 S       SG       019  9.9  72.40  98.50 -26.10 1.00  4
+ CRU    463 207.0102.7 0 P       PG       019 20.0  82.57  62.16  20.41 1.00  2
+ CRU    463 207.0102.7 0 S     C SG       019 23.4  85.98 110.65 -24.67 1.00  4
+ CUM    566 213.5 99.7 0 P       PG       019 32.2  94.77  74.69  20.08 1.00  3
+ Return to continue, q to end listing q
+
+ 1996  214 0017 57.5 L   5.236 -75.066140.3  TES 1020.9
+ OLD: 0214 0017 57.6 L   5.233 -75.069138.8  TES 1020.9
+
+  Return to continue
+  U to update
+u
+ 14-0016-49L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 214  017 57.46  514.15N  75  4.0W 140.3   19 3  20.93 0.000166.5159.4322.2
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     77 201.4149.7 0 P       PG       018 35.4  37.94  21.41  16.53 1.00  1
+ TOL     77 201.4149.7 0 S       SG       018 38.3  40.80  38.12   2.68 1.00 15
+ CHI    162 114.2128.1 0 P       PG       018 23.7  26.26  28.44  -2.18 1.00  5
+ CHI    162 114.2128.1 0 S       SG       018 25.8  28.34  50.63 -22.29 1.00 11
+ PRA    169 173.2126.6 0 P       PG       018 39.5  42.01  28.63  13.38 1.00  1
+ PRA    169 173.2126.6 0 S     C SG       019 27.6  90.13  50.97  39.16 1.00  5
+ BAR    261  53.3114.6 0 P       PG       018  5.8   8.31  38.52 -30.21 1.00 11
+ BET    286 188.4112.3 0 P       PG       018 53.6  56.11  41.05  15.06 1.00  1
+ BET    286 188.4112.3 0 S       SG       018 59.3  61.82  73.07 -11.25 1.00  3
+ MAL    286 241.9112.3 0 S     C SG       019  4.4  66.99  72.97  -5.98 1.00  6
+ MAL    286 241.9112.3 0 P       PG       019  0.4  62.93  40.99  21.94 1.00  2
+ SOL    293 295.5111.7 0 P       PG       018 51.1  53.67  41.82  11.85 1.00  6
+ SOL    293 295.5111.7 0 S     C SG       018 53.3  55.89  74.43 -18.54 1.00 14
+ FLO    409 189.2104.7 0 P       PG       019  7.9  70.45  55.34  15.11 1.00  2
+ FLO    409 189.2104.7 0 S       SG       019  9.9  72.40  98.50 -26.10 1.00  4
+ CRU    463 207.0102.7 0 P       PG       019 20.0  82.57  62.16  20.41 1.00  2
+ CRU    463 207.0102.7 0 S     C SG       019 23.4  85.98 110.65 -24.67 1.00  4
+ CUM    566 213.5 99.7 0 P       PG       019 32.2  94.77  74.69  20.08 1.00  3
+ CUM    566 213.5 99.7 0 S     C SG       019 35.4  97.98 132.95 -34.97 1.00  4
+
+ 1996  214 0017 57.5 L   5.236 -75.066140.3  TES 1020.9
+ OLD: 0214 0017 57.6 L   5.233 -75.069138.8  TES 1020.9
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+#    2 14 Feb 1996 00:17 57  L   5.236 -75.066140.3   20.9      TES  10  ? e
+#    2 14 Feb 1996 00:17 57  L   5.236 -75.066140.3   20.9      TES  10  ? gmap
+  Location map is generated for maps.google.com
+#    2 14 Feb 1996 00:17 57  L   5.236 -75.066140.3   20.9      TES  10  ?
+#    3 15 Feb 1996 18:22 40  L   4.382 -74.681 33.1    7.3      TES   8  ?
+#    4 18 Feb 1996 05:38  6  L                                           ? po
+
+ 18-0538-06L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 218  539  3.03  625.12N  73 27.1W  30.6   11 3   1.67 0.000123.3 98.7236.7
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ BAR     39  50.7123.5 0 P       PG       539 14.6  11.58   8.09   3.49 1.00  8
+ BAR     39  50.7123.5 0 S     C SG       539 14.9  11.90  14.40  -2.50 1.00 19
+ CHI    200 188.9 61.0 0 P       PN4      539 32.9  29.83  28.54   1.29 1.00 19
+ TOL    290 225.7 59.8 0 P       PN5      539 44.8  41.80  39.64   2.16 1.00  5
+ PRA    339 208.1 59.8 0 P       PN5      539 48.5  45.51  45.33   0.18 1.00  2
+ SOL    443 269.5 59.8 0 P       PN5      540  0.6  57.52  58.16  -0.64 1.00 29
+ BET    469 208.2 59.8 0 P       PN5      540  3.2  60.18  61.37  -1.18 1.00  2
+ MAL    506 238.5 59.8 0 P       PN5      540  9.4  66.37  65.92   0.45 1.00  8
+ FLO    588 204.7 59.8 0 P       PN5      540 17.7  74.67  76.07  -1.40 1.00  3
+ CRU    669 215.7 59.8 0 P       PN5      540 28.9  85.85  86.43  -0.58 1.00  2
+ CUM    778 219.3 59.8 0 P       PN5      540 41.9  98.88 100.14  -1.26 1.00  3
+
+ 1996  218 0539  3.0 L   6.419 -73.451 30.6  TES 10 1.7
+ OLD: 0218 0538 06.8 L
+
+  Return to continue
+  U to update
+u
+ 18-0538-06L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 218  539  3.03  625.12N  73 27.1W  30.6   11 3   1.67 0.000123.3 98.7236.7
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ BAR     39  50.7123.5 0 P       PG       539 14.6  11.58   8.09   3.49 1.00  8
+ BAR     39  50.7123.5 0 S     C SG       539 14.9  11.90  14.40  -2.50 1.00 19
+ CHI    200 188.9 61.0 0 P       PN4      539 32.9  29.83  28.54   1.29 1.00 19
+ TOL    290 225.7 59.8 0 P       PN5      539 44.8  41.80  39.64   2.16 1.00  5
+ PRA    339 208.1 59.8 0 P       PN5      539 48.5  45.51  45.33   0.18 1.00  2
+ SOL    443 269.5 59.8 0 P       PN5      540  0.6  57.52  58.16  -0.64 1.00 29
+ BET    469 208.2 59.8 0 P       PN5      540  3.2  60.18  61.37  -1.18 1.00  2
+ MAL    506 238.5 59.8 0 P       PN5      540  9.4  66.37  65.92   0.45 1.00  8
+ FLO    588 204.7 59.8 0 P       PN5      540 17.7  74.67  76.07  -1.40 1.00  3
+ CRU    669 215.7 59.8 0 P       PN5      540 28.9  85.85  86.43  -0.58 1.00  2
+ CUM    778 219.3 59.8 0 P       PN5      540 41.9  98.88 100.14  -1.26 1.00  3
+
+ 1996  218 0539  3.0 L   6.419 -73.451 30.6  TES 10 1.7
+ OLD: 0218 0538 06.8 L
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+#    4 18 Feb 1996 05:39  3  L   6.419 -73.451 30.6    1.7      TES  10  ? e
+#    4 18 Feb 1996 05:39  3  L   6.419 -73.451 30.6    1.7      TES  10  ? gmap
+  Location map is generated for maps.google.com
+#    4 18 Feb 1996 05:39  3  L   6.419 -73.451 30.6    1.7      TES  10  ?
+
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? po
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.85  416.59N  75 47.7W 202.2   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.31  27.62   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.39  49.16   9.23 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.50  30.05   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.97  53.49   5.48 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.98  34.01  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.29  60.54  18.75 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.41  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.13  61.77  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.13  39.82   6.31 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.84  70.89   6.95 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.83  45.56   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.42  81.09 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.28  45.86  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.23  81.63 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.23  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.10  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.02  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.05  99.80 -36.75 1.00  8
+ Return to continue, q to end listing q
+
+ 1996  210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+ OLD: 0210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+
+  Return to continue
+  U to update
+u
+ 10-2021-41L.S199602
+
+  date hrmn   sec      lat      long depth   no m    rms  damp erln erlt erdp
+96 210 2022 22.85  416.59N  75 47.7W 202.2   20 3  15.96 0.000118.8103.5226.9
+ stn   dist   azm  ain w phas    calcphs hrmn tsec  t-obs  t-cal    res   wt di
+ TOL     63  57.1162.2 0 P       PG      2022 54.2  31.31  27.62   3.69 1.00  1
+ TOL     63  57.1162.2 0 S       SG      2023 21.2  58.39  49.16   9.23 1.00 10
+ PRA    119 121.6148.4 0 P       PG      2023  0.3  37.50  30.05   7.45 1.00  1
+ PRA    119 121.6148.4 0 S       SG      2023 21.8  58.97  53.49   5.48 1.00  7
+ MAL    173 260.4137.7 0 P       PG      2023  7.8  44.98  34.01  10.97 1.00  2
+ MAL    173 260.4137.7 0 S       SG      2023 42.1  79.29  60.54  18.75 1.00 10
+ BET    181 167.4136.5 0 P       PG      2023  9.3  46.41  34.70  11.71 1.00  1
+ BET    181 167.4136.5 0 S       SG      2023 17.0  54.13  61.77  -7.64 1.00  5
+ CHI    233  80.2129.2 0 P       PG      2023  9.0  46.13  39.82   6.31 1.00  3
+ CHI    233  80.2129.2 0 S     C SG      2023 40.7  77.84  70.89   6.95 1.00  6
+ SOL    296 321.6122.1 0 P       PG      2023 12.7  49.83  45.56   4.27 1.00  6
+ SOL    296 321.6122.1 0 S       SG      2023 23.3  60.42  81.09 -20.67 1.00 12
+ FLO    298 177.0121.9 0 P       PG      2023 22.1  59.28  45.86  13.42 1.00  3
+ FLO    298 177.0121.9 0 S       SG      2023 29.1  66.23  81.63 -15.40 1.00  5
+ CRU    333 202.8119.0 0 P       PG      2023 28.1  65.23  49.94  15.29 1.00  3
+ CRU    333 202.8119.0 0 S       SG      2023 29.9  67.10  88.89 -21.79 1.00  4
+ BAR    391  47.8114.9 0 P       PG      2023 22.9  60.02  56.07   3.95 1.00  6
+ BAR    391  47.8114.9 0 S       SG      2023 25.9  63.05  99.80 -36.75 1.00  8
+ CUM    433 212.3112.6 0 P       PG      2023 39.9  77.03  61.18  15.85 1.00  4
+ CUM    433 212.3112.6 0 S     C SG      2023 40.7  77.84 108.91 -31.07 1.00  5
+
+ 1996  210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+ OLD: 0210 2022 22.8 L   4.276 -75.795202.2  TES 1016.0
+
+  You are now about to overwite the current event in the data base.
+  with the solution just shown
+  The catalog is not updated !!!!!
+  Sure you want to update, (y/n) ?
+y
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? e
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? gmap
+  Location map is generated for maps.google.com
+#    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ?
+
+
+
+
+
+
+
+
