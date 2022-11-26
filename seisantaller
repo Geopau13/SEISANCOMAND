@@ -4,17 +4,8 @@ Microsoft Windows [Versión 10.0.22621.521]
 C:\Users\Perfil>cd seismo
 El sistema no puede encontrar la ruta especificada.
 
-C:\Users\Perfil>cd ..
 
-C:\Users>cd seismo
-El sistema no puede encontrar la ruta especificada.
 
-C:\Users>INFOSALA J
-"INFOSALA" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.
-
-C:\Users>cd INFOSALA J
-El sistema no puede encontrar la ruta especificada.
 
 C:\Users>CD..
 
@@ -67,45 +58,6 @@ C:\Seismo\WOR>dirf 19*.*
  #  3  1996_02_1996-02-15-1819-57S.COL___013
  #  4  1996_02_1996-02-18-0538-06S.COL___012
 
-C:\Seismo\WOR>mulplt
-  Filename, number, filenr.lis (all)
-  Continuous SEISAN data base: cont
-  Large SEED volume: conts
-  Archive: arc
-  Make a choice
-1
-
-  Plot options: Interactive picking          Return
-                Multi trace plot on screen, def (0)
-                Multi trace plot on screen      (1)
-                Multi trace plot on screen+laser(2)
-                Multi trace plot on laser       (3)
-                Continuoues on screen           (4)
-                Continuoues on screen + laser   (5)
-                Continuoues on laser            (6)
-                Stop                            (q)
-0
-  Low and high cut for filter, return for no filter
-
-
- ENTER EVENT TYPE L,R OR D
- Second. optional character for event ID (e.g. E)
- Third optional character for model ID (e.g. J) l
-  Give operator code (max 4 char)
-pau
-  Give 2-5 letter data base, ,, for local dir, return for default base
-pauli
-
- S-file name:   C:\Seismo\REA\pauli\1996\02\10-2021-41L.S199602
- GO AHEAD (Y/N)
-y
-
- **** WARN: problem opening file                    ****
-           C:\Seismo\REA\pauli\1996\02\10-2021-41L.S199602
- ****                                               ****
-
- **** WARN: halting program in SEIOPEN              ****
- ****       ...closing down files                   ****
 
 C:\Seismo\WOR>dir
  El volumen de la unidad C no tiene etiqueta.
@@ -945,6 +897,8 @@ y
 #    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ? gmap
   Location map is generated for maps.google.com
 #    1 10 Feb 1996 20:22 22  L   4.276 -75.795202.2   16.0      TES  10  ?
+
+Para Localizar se usa el comando po sobre el sismo>distant>L>U de update>Y de year>E para el Sfile
 
 
 
